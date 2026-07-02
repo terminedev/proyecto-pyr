@@ -1,11 +1,10 @@
+// OBTENER un valor desde el localStorage:
+export const getLocalStorage = (key: string): string | null => {
+    const value = localStorage.getItem(key);
+    return value !== null ? value : null;
+};
 
-// OBTENER el puntaje general almacenado en el local storage:
-export const getOverallScore = (): number => {
-    const score = localStorage.getItem('overallScore');
-    return score !== null ? parseInt(score) : 0;
-}
-
-// RESETEAR el puntaje general en el local storage:
-export const resetOverallScore = (): void => {
-    localStorage.setItem('overallScore', '0');
-}
+// GUARDAR o ACTUALIZAR un valor en el localStorage:
+export const setLocalStorage = (key: string, value: any): void => {
+    localStorage.setItem(key, JSON.stringify(value));
+};

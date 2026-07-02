@@ -1,9 +1,13 @@
 import { useState } from "react"
-import { getOverallScore, resetOverallScore } from "../logic-game/memory";
+import { getLocalStorage, setLocalStorage } from "../../logic-game/memory";
+import type { GameData } from "../../logic-game/interfaces";
 
-export default function MainMenu() {
+export default function MainMenu({ setGameInProgress }) {
 
-    const [overallScore, _setOverallScore] = useState(getOverallScore());
+    const [overallScore, _setOverallScore] = useState(() => {
+        const score = getLocalStorage('overallScore');
+        return score ? parseInt(score) : 0;
+    });
 
     return <section className="center-web-page center-all" style={{ gap: '2rem' }}>
 
@@ -16,9 +20,17 @@ export default function MainMenu() {
         <hr style={{ width: '300px' }} />
 
         <div className="center-all" style={{ gap: '1rem' }}>
-            <button>¡Jugar Partida!</button>
+            <button onClick={() => {
+                setGameInProgress(true)
+
+                // Crear un nuevo Game Data
+                setLocalStorage('gameData', {
+                    gameInProgress: true
+                } as GameData)
+
+            }}>¡Jugar Partida!</button>
             <div className="center-all" style={{ gap: '0px' }}>
-                <button onClick={resetOverallScore}>
+                <button onClick={() => setLocalStorage('overallScore', 0)}>
                     Reiniciar puntaje total
                 </button>
                 <strong style={{ color: 'red' }}>¡Esta opción no se puede deshacer!</strong>

@@ -11,3 +11,7 @@ export interface Question {
 }
 
 export type Answers = 'A' | 'B' | 'C' | 'D';
+
+export interface GameData {
+    gameInProgress: boolean
+}
