@@ -1,0 +1,222 @@
+[
+    {
+        "question": "¿Cuál es la última versión del juego \"Exe World 2\"?",
+        "options": {
+            "A": "La DEMO.",
+            "B": "La 1.0.",
+            "C": "La 2.1.",
+            "D": "La 3.0."
+        },
+        "correct_answer": "D",
+        "clarification": ""
+    },
+    {
+        "question": "¿A qué lugar específico debe ir Exe tras conseguir la llave en el primer mundo de \"Exe World 2\"?",
+        "options": {
+            "A": "A la casa embrujada.",
+            "B": "Al bosque oscuro.",
+            "C": "Al cementerio.",
+            "D": "A la ciudad principal."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "Durante las primeras batallas en \"Exe World 2\", Mar canta, Exe usa una espada y ¿Tina...?",
+        "options": {
+            "A": "Usa otra espada.",
+            "B": "Lanza un micrófono.",
+            "C": "Dispara con un lanzatintas.",
+            "D": "Tiene un escudo de energía."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuál es el primer cameo en la Isla Loca tras intentar salir en \"Exe World 2\"?",
+        "options": {
+            "A": "Scott.",
+            "B": "Cerdo Gaming (Pig 001).",
+            "C": "Big Planet Games.",
+            "D": "Calamar Exe."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "Mientras Exe escala la montaña en \"Exe World 2\", ¿qué elemento debe recolectar para avanzar y completar la misión de forma rápida?",
+        "options": {
+            "A": "Cristales mágicos.",
+            "B": "Monedas de oro.",
+            "C": "Flechas escondidas.",
+            "D": "Llaves maestras."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "La primera vez que Exe llega al cuartel de Mar en \"Exe World 2\", ¿cuál es la misión principal?",
+        "options": {
+            "A": "Derrotar a un jefe.",
+            "B": "Cruzar tres puertas específicas.",
+            "C": "Encontrar los cristales ocultos.",
+            "D": "Escalar la montaña más alta."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿En qué versión aparece el dinosaurio Pacheco en \"Exe World 2\"?",
+        "options": {
+            "A": "En la Demo.",
+            "B": "1.5.",
+            "C": "2.0.",
+            "D": "3.0."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuál fue el primer interés romántico de Exe?",
+        "options": {
+            "A": "8.",
+            "B": "Ahri.",
+            "C": "Megan.",
+            "D": "Carrie."
+        },
+        "correct_answer": "D",
+        "clarification": ""
+    },
+    {
+        "question": "¿De qué especie es Exe en la saga “Exe World”?",
+        "options": {
+            "A": "Calamar humanoide.",
+            "B": "Pulpo humanoide.",
+            "C": "Humano.",
+            "D": "Fantasma."
+        },
+        "correct_answer": "A",
+        "clarification": "¡En el lore nuevo ahora es de otra! :o"
+    },
+    {
+        "question": "¿Cuánto tiempo le tomó a Gastøn crear la primera versión de “Exe World 2”?",
+        "options": {
+            "A": "15 Días.",
+            "B": "2 meses",
+            "C": "4 meses",
+            "D": "7 Meses"
+        },
+        "correct_answer": "B",
+        "clarification": "El proyecto contaba con 216 diapositivas totales."
+    },
+    {
+        "question": "¿Por qué “Exe World Original” se canceló?",
+        "options": {
+            "A": "Por falta de tiempo e ideas.",
+            "B": "Por errores de Power Point.",
+            "C": "La pérdida de los archivos por un formateo de PC.",
+            "D": "Por pereza."
+        },
+        "correct_answer": "C",
+        "clarification": "Un virus no permitía abrir los archivos de la pc. Entre ellos, Exe World."
+    },
+    {
+        "question": "En la Demo de “Exe World 2” ¿Qué personajes debutan?",
+        "options": {
+            "A": "Exe y sus variantes.",
+            "B": "Integrantes de SHenP.",
+            "C": "Exe y sus hermanas.",
+            "D": "Exe y sus primos."
+        },
+        "correct_answer": "C",
+        "clarification": "Exe, Mar y Tina son hermanos. No primos."
+    },
+    {
+        "question": "¿Cuáles son considerados los niveles más rápidos de completar en “Exe World 2”?",
+        "options": {
+            "A": "La Isla iceberg",
+            "B": "El primer nivel y el nivel final.",
+            "C": "Los niveles de entrenamiento.",
+            "D": "El castillo de Carrie."
+        },
+        "correct_answer": "A",
+        "clarification": ""
+    },
+    {
+        "question": "¿”Exe World 2” tiene modos extras jugables?",
+        "options": {
+            "A": "Sólo la aventura principal.",
+            "B": "Un modo de pelea.",
+            "C": "Online.",
+            "D": "Multijugador."
+        },
+        "correct_answer": "A",
+        "clarification": "Tenía un “modo online” falso. Nunca hubo."
+    },
+    {
+        "question": "¿Qué se reveló de Exe antes en “Exe World 2”?",
+        "options": {
+            "A": "Sus ojos.",
+            "B": "Sus heridas.",
+            "C": "Sus poderes.",
+            "D": "Su habilidad de Calamar."
+        },
+        "correct_answer": "A",
+        "clarification": "Se cae de la cama en la primera cinemática antes de jugar."
+    },
+    {
+        "question": "¿Qué personaje de “Exe World Original” no aparece en “Exe World 2”?",
+        "options": {
+            "A": "Woman Pro.",
+            "B": "Carrie.",
+            "C": "Block Gameplay.",
+            "D": "Dani Pacheco."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿En “Exe World 2” qué novedad se añadió en la actualización 2.3?",
+        "options": {
+            "A": "Se añadió un autoguardado.",
+            "B": "Se implementaron animaciones dentro del juego.",
+            "C": "Se corrigió la ortografía.",
+            "D": "El arte del juego cambió."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿En “Exe World 2” ¿Qué sucede cuando Exe toma el veneno que le ofrece Carrie?",
+        "options": {
+            "A": "Se convierte en fantasma.",
+            "B": "Se vuelve invisible.",
+            "C": "Pierde su memoria.",
+            "D": "Es humano."
+        },
+        "correct_answer": "A",
+        "clarification": ""
+    },
+    {
+        "question": "¿Quién acompaña a Exe en el enfrentamiento contra Camila en “Exe World 2”?",
+        "options": {
+            "A": "Tina.",
+            "B": "Big Planet Games.",
+            "C": "Dani Pacheco.",
+            "D": "Felipe 36."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del juego “Exe World 3: Fan Game”?",
+        "options": {
+            "A": "Derrotar a todos los enemigos.",
+            "B": "Encontrar las 7 gemas de cada fase.",
+            "C": "Llegar al final del mapa.",
+            "D": "Completar los puzzles."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    }
+]
