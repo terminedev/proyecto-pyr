@@ -3,14 +3,14 @@ import type { Answers, Question } from './interfaces';
 import questions from './questions.json';
 
 // OBTENER (x) preguntas aleatorias: 
-const getRandomQuestions = (n: number = NUMBER_OF_QUESTIONS): Question[] => {
+export const getRandomQuestions = (n: number = NUMBER_OF_QUESTIONS): Question[] => {
     return [...questions as Question[]]
         .sort(() => Math.random() - 0.5) // Desordena el array. 
         .slice(0, n); // Toma los elementos del 0 al n. 
 };
 
 // RESPONDER pregunta: 
-const answerQuestion = (
+export const answerQuestion = (
     q: Question,
     res: Answers
 ): boolean => {
@@ -20,19 +20,19 @@ const answerQuestion = (
 };
 
 // EVALUAR puntaje: 
-const evaluateScore = (
+export const evaluateScore = (
     statusResponse: boolean,
     indexQuestion: number
 ): number => {
     if (statusResponse) {
-        return 100 * (1 + (indexQuestion - 1) / 10);
+        return Math.round(100 * (1 + (indexQuestion - 1) / 10));
     } else {
-        return 50 * (1 - (indexQuestion - 1) / 20);
+        return Math.round(50 * (1 - (indexQuestion - 1) / 20));
     }
 };
 
 // COMPROBAR record:
-const checkRecord = (
+export const checkRecord = (
     currentScore: number,
     newScore: number
 ): number => {
