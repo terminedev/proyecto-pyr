@@ -7,11 +7,21 @@ export interface Question {
         'D': string
     },
     correct_answer: Answers,
-    clarification: string
+    clarification: string,
+    itWasAnswered: boolean
 }
 
 export type Answers = 'A' | 'B' | 'C' | 'D';
 
 export interface GameData {
-    gameInProgress: boolean
+    scoreInGame: number,
+    gameHistory: GameHistory | null
+    questions: Question[];
+}
+
+export interface GameHistory {
+    totalQuestions: number,
+    correctQuestions: number,
+    wrongQuestions: number,
+    currentQuestion: number
 }

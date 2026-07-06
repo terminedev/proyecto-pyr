@@ -11,12 +11,10 @@ export const getRandomQuestions = (n: number = NUMBER_OF_QUESTIONS): Question[] 
 
 // RESPONDER pregunta: 
 export const answerQuestion = (
-    q: Question,
-    res: Answers
+    correctAnswer: Answers,
+    userResponse: Answers
 ): boolean => {
-
-    return q.correct_answer === res ? true : false
-
+    return correctAnswer === userResponse ? true : false
 };
 
 // EVALUAR puntaje: 

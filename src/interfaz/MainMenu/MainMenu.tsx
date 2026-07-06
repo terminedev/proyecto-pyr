@@ -1,8 +1,15 @@
 import { useState } from "react"
 import { getLocalStorage, setLocalStorage } from "../../logic-game/memory";
 import type { GameData } from "../../logic-game/interfaces";
+import { NUMBER_OF_QUESTIONS } from "../../logic-game/constants";
+import { getRandomQuestions } from "../../logic-game/functions";
 
-export default function MainMenu({ setGameInProgress }) {
+// Definir la interface de Props
+interface MainMenuProps {
+    setGameData: React.Dispatch<React.SetStateAction<GameData | null>>;
+}
+
+export default function MainMenu({ setGameData }: MainMenuProps) {
 
     const [overallScore, _setOverallScore] = useState(() => {
         const score = getLocalStorage('overallScore');
@@ -21,12 +28,21 @@ export default function MainMenu({ setGameInProgress }) {
 
         <div className="center-all" style={{ gap: '1rem' }}>
             <button onClick={() => {
-                setGameInProgress(true)
 
                 // Crear un nuevo Game Data
-                setLocalStorage('gameData', {
-                    gameInProgress: true
-                } as GameData)
+                const gameDataDefault = {
+                    scoreInGame: 0,
+                    gameHistory: {
+                        correctQuestions: 0,
+                        currentQuestion: 0,
+                        totalQuestions: NUMBER_OF_QUESTIONS,
+                        wrongQuestions: 0
+                    },
+                    questions: [...getRandomQuestions()]
+                } as GameData;
+
+                // Actualizar los datos del juego:
+                setGameData(gameDataDefault)
 
             }}>¡Jugar Partida!</button>
             <div className="center-all" style={{ gap: '0px' }}>
