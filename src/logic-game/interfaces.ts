@@ -7,8 +7,7 @@ export interface Question {
         'D': string
     },
     correct_answer: Answers,
-    clarification: string,
-    itWasAnswered: boolean
+    clarification: string
 }
 
 export type Answers = 'A' | 'B' | 'C' | 'D';
