@@ -14,7 +14,6 @@ interface EndGameProps {
 export default function EndGame({
     pointsEarned,
     setGameData,
-    overallScore,
     setOverallScore
 }: EndGameProps) {
 

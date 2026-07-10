@@ -1,6 +1,6 @@
 [
     {
-        "question": "¿Cuál es la última versión del juego \"Exe World 2\"?",
+        "question": "¿Cuál es la última versión del \"Exe World 2\"?",
         "options": {
             "A": "La DEMO.",
             "B": "La 1.0.",
@@ -11,7 +11,7 @@
         "clarification": ""
     },
     {
-        "question": "¿A qué lugar específico debe ir Exe tras conseguir la llave en el primer mundo de \"Exe World 2\"?",
+        "question": "¿A qué lugar específico debe ir Exe tras conseguir la llave en el primer mundo en \"Exe World 2\"?",
         "options": {
             "A": "A la casa embrujada.",
             "B": "Al bosque oscuro.",
@@ -77,12 +77,23 @@
         "clarification": ""
     },
     {
-        "question": "¿Cuál fue el primer interés romántico de Exe?",
+        "question": "¿Cuál es el primer interés romántico de Exe?",
         "options": {
             "A": "8.",
             "B": "Ahri.",
             "C": "Megan.",
             "D": "Carrie."
+        },
+        "correct_answer": "D",
+        "clarification": ""
+    },
+    {
+        "question": "¿Qué pasa cuando se reúnen las gemas en la saga “Exe World”?",
+        "options": {
+            "A": "Se obtiene la “Multigema”.",
+            "B": "Permite viajar entre universos.",
+            "C": "Exe puede convertirse en “Super Exe”.",
+            "D": "Todas son correctas."
         },
         "correct_answer": "D",
         "clarification": ""
@@ -96,45 +107,45 @@
             "D": "Fantasma."
         },
         "correct_answer": "A",
-        "clarification": "¡En el lore nuevo ahora es de otra! :o"
+        "clarification": "¡En el lore nuevo, ahora es de otra! :o"
     },
     {
         "question": "¿Cuánto tiempo le tomó a Gastøn crear la primera versión de “Exe World 2”?",
         "options": {
-            "A": "15 Días.",
-            "B": "2 meses",
-            "C": "4 meses",
-            "D": "7 Meses"
+            "A": "15 días.",
+            "B": "2 meses.",
+            "C": "4 meses.",
+            "D": "7 meses."
         },
         "correct_answer": "B",
-        "clarification": "El proyecto contaba con 216 diapositivas totales."
+        "clarification": "El proyecto cuenta con 216 diapositivas totales."
     },
     {
-        "question": "¿Por qué “Exe World Original” se canceló?",
+        "question": "¿Por qué se canceló “Exe World Original”?",
         "options": {
             "A": "Por falta de tiempo e ideas.",
-            "B": "Por errores de Power Point.",
-            "C": "La pérdida de los archivos por un formateo de PC.",
+            "B": "Por errores de PowerPoint.",
+            "C": "Por la pérdida de los archivos tras un formateo de PC.",
             "D": "Por pereza."
         },
         "correct_answer": "C",
-        "clarification": "Un virus no permitía abrir los archivos de la pc. Entre ellos, Exe World."
+        "clarification": "Un virus no permitió abrir los archivos de la PC, entre ellos, Exe World."
     },
     {
-        "question": "En la Demo de “Exe World 2” ¿Qué personajes debutan?",
+        "question": "En la demo de “Exe World 2”, ¿qué personajes debutan?",
         "options": {
             "A": "Exe y sus variantes.",
             "B": "Integrantes de SHenP.",
             "C": "Exe y sus hermanas.",
-            "D": "Exe y sus primos."
+            "D": "Exe y sus primas."
         },
         "correct_answer": "C",
-        "clarification": "Exe, Mar y Tina son hermanos. No primos."
+        "clarification": "Exe, Mar y Tina son hermanos, no primos."
     },
     {
         "question": "¿Cuáles son considerados los niveles más rápidos de completar en “Exe World 2”?",
         "options": {
-            "A": "La Isla iceberg",
+            "A": "La Isla Iceberg.",
             "B": "El primer nivel y el nivel final.",
             "C": "Los niveles de entrenamiento.",
             "D": "El castillo de Carrie."
@@ -143,29 +154,29 @@
         "clarification": ""
     },
     {
-        "question": "¿”Exe World 2” tiene modos extras jugables?",
+        "question": "¿“Exe World 2” tiene modos extras jugables?",
         "options": {
-            "A": "Sólo la aventura principal.",
+            "A": "Solo la aventura principal.",
             "B": "Un modo de pelea.",
             "C": "Online.",
             "D": "Multijugador."
         },
         "correct_answer": "A",
-        "clarification": "Tenía un “modo online” falso. Nunca hubo."
+        "clarification": "Tenía un “modo online” falso. Nunca funcionó."
     },
     {
-        "question": "¿Qué se reveló de Exe antes en “Exe World 2”?",
+        "question": "¿Qué se revela de Exe antes en “Exe World 2”?",
         "options": {
             "A": "Sus ojos.",
             "B": "Sus heridas.",
             "C": "Sus poderes.",
-            "D": "Su habilidad de Calamar."
+            "D": "Su habilidad de calamar."
         },
         "correct_answer": "A",
-        "clarification": "Se cae de la cama en la primera cinemática antes de jugar."
+        "clarification": "Se cae de la cama en la primera cinemática."
     },
     {
-        "question": "¿Qué personaje de “Exe World Original” no aparece en “Exe World 2”?",
+        "question": "¿Qué personaje de “Exe World: Original” no aparece en “Exe World 2”?",
         "options": {
             "A": "Woman Pro.",
             "B": "Carrie.",
@@ -176,23 +187,23 @@
         "clarification": ""
     },
     {
-        "question": "¿En “Exe World 2” qué novedad se añadió en la actualización 2.3?",
+        "question": "¿Qué novedad se añade en la actualización 2.3 de “Exe World 2”?",
         "options": {
-            "A": "Se añadió un autoguardado.",
-            "B": "Se implementaron animaciones dentro del juego.",
-            "C": "Se corrigió la ortografía.",
-            "D": "El arte del juego cambió."
+            "A": "Se añade un autoguardado.",
+            "B": "Se implementan animaciones dentro del juego.",
+            "C": "Se corrige la ortografía.",
+            "D": "El arte del juego cambia."
         },
         "correct_answer": "B",
         "clarification": ""
     },
     {
-        "question": "¿En “Exe World 2” ¿Qué sucede cuando Exe toma el veneno que le ofrece Carrie?",
+        "question": "¿Qué sucede cuando Exe toma el veneno que le ofrece Carrie en “Exe World 2”?",
         "options": {
             "A": "Se convierte en fantasma.",
             "B": "Se vuelve invisible.",
             "C": "Pierde su memoria.",
-            "D": "Es humano."
+            "D": "Se vuelve humano."
         },
         "correct_answer": "A",
         "clarification": ""
@@ -217,6 +228,589 @@
             "D": "Completar los puzzles."
         },
         "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cómo se llama el personaje que se presenta como un \"fantasma\" y le ofrece ayuda a Exe en “Exe World 3: Fan Game”?",
+        "options": {
+            "A": "Nico Flow.",
+            "B": "Pixel 01.",
+            "C": "Tomi H.",
+            "D": "Sans."
+        },
+        "correct_answer": "A",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuánto tiempo pasa desde “Exe World 2” a los acontecimientos de “Exe World: Remasterizado”?",
+        "options": {
+            "A": "6 meses.",
+            "B": "1 año.",
+            "C": "3 años.",
+            "D": "Medio año."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Quién es la dueña del laboratorio construido en la Isla Iceberg?",
+        "options": {
+            "A": "Tina.",
+            "B": "Gema.",
+            "C": "Soraya.",
+            "D": "Mar."
+        },
+        "correct_answer": "D",
+        "clarification": ""
+    },
+    {
+        "question": "¿En qué entrega aparecen los Retrasaditos por primera vez?",
+        "options": {
+            "A": "Exe World 3.",
+            "B": "Brataly.",
+            "C": "Exe World: Remasterizado.",
+            "D": "Nova: Universo Alterno."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿En qué fecha se crea el canal de YouTube de Gastøn?",
+        "options": {
+            "A": "28 de enero de 2014.",
+            "B": "28 de enero de 2015.",
+            "C": "15 de febrero de 2015.",
+            "D": "28 de diciembre de 2014."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿Qué tipo de contenido característico hizo que Gastøn ganase sus primeros suscriptores?",
+        "options": {
+            "A": "Tutoriales de edición de video profesional.",
+            "B": "Vlogs diarios sobre su vida personal.",
+            "C": "Juegos y animaciones creados en PowerPoint.",
+            "D": "Reseñas de videojuegos de consolas actuales."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Qué programa utilizó Gastøn para crear las imágenes de sus primeros juegos?",
+        "options": {
+            "A": "Adobe Photoshop.",
+            "B": "Microsoft Paint.",
+            "C": "PowerPoint.",
+            "D": "Illustrator."
+        },
+        "correct_answer": "B",
+        "clarification": "Gastøn empezó con Paint, luego se pasó a PowerPoint."
+    },
+    {
+        "question": "¿Qué sucede cuando el jugador intenta caminar hacia una dirección bloqueada en la saga \"Exe World\"?",
+        "options": {
+            "A": "Ocurre un error de diapositiva.",
+            "B": "Las flechas de dirección se ponen de color rojo.",
+            "C": "El personaje retrocede automáticamente.",
+            "D": "Los personajes comentan al respecto."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cómo recuperan salud los personajes en la saga \"Exe World\"?",
+        "options": {
+            "A": "Por habilidades en combate.",
+            "B": "Recogen ítems del escenario.",
+            "C": "Esperan a que el enemigo falle.",
+            "D": "No es posible curarse."
+        },
+        "correct_answer": "A",
+        "clarification": ""
+    },
+    {
+        "question": "Además de PowerPoint, ¿qué otro motor utilizó Gastøn para la saga \"Exe World\" y \"Nova: Universo Alterno\"?",
+        "options": {
+            "A": "Construct 2.",
+            "B": "Ren'Py.",
+            "C": "Siempre usó PowerPoint.",
+            "D": "GameMaker Studio 2."
+        },
+        "correct_answer": "C",
+        "clarification": "Gastøn llegó a utilizar los demás motores, pero nunca lanza un proyectó finalizado con ellos."
+    },
+    {
+        "question": "En la saga \"Exe World\", ¿qué relación tienen Exe y Mar?",
+        "options": {
+            "A": "Son pareja.",
+            "B": "Son amigos.",
+            "C": "Son hermanos biológicos.",
+            "D": "Son primos."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Quién es el hermano mayor en la saga \"Exe World\"?",
+        "options": {
+            "A": "Exe.",
+            "B": "Tina.",
+            "C": "Mar.",
+            "D": "Dani Pacheco."
+        },
+        "correct_answer": "B",
+        "clarification": "Tina es la mayor, Mar la del medio y Exe el más chico."
+    },
+    {
+        "question": "¿Qué nombre de autor utilizó Gastøn durante “Nova: Universo Alterno”?",
+        "options": {
+            "A": "Exe Studios.",
+            "B": "Gastøn ♱érmine.",
+            "C": "Nova/KDA.",
+            "D": "Nova The Inkling."
+        },
+        "correct_answer": "C",
+        "clarification": "Fue Exe Studios durante la saga Exe, Nova/KDA durante Nova: Universo Alterno, y Nova The Inkling en su canal de YouTube. Actualmente, en 2026, utiliza Gastøn ♱érmine."
+    },
+    {
+        "question": "¿De qué color tuvo Exe originalmente el cabello?",
+        "options": {
+            "A": "Negro con puntas cian.",
+            "B": "Negro con puntas celestes.",
+            "C": "Solo negro.",
+            "D": "Azul oscuro."
+        },
+        "correct_answer": "C",
+        "clarification": "Al principio es solo negro, luego las puntas cambian a cian."
+    },
+    {
+        "question": "¿Se remasterizó “Exe World: Original”?",
+        "options": {
+            "A": "No.",
+            "B": "Sí.",
+            "C": "Sí, pero resultó ser otro juego distinto.",
+            "D": "Se canceló."
+        },
+        "correct_answer": "C",
+        "clarification": "Gastøn no respetó las ideas de Exe World: Original y creó otra entrega diferente."
+    },
+    {
+        "question": "¿Cómo se hizo conocida la saga “Exe World” originalmente?",
+        "options": {
+            "A": "Gracias a un anuncio en redes.",
+            "B": "Gracias a que fue jugada y compartida.",
+            "C": "Por un video promocional.",
+            "D": "Por una página web."
+        },
+        "correct_answer": "B",
+        "clarification": "Gracias a los videos de TutoRaczor y la comunidad de juegos en PowerPoint."
+    },
+    {
+        "question": "¿En qué franquicia de videojuegos se inspira “Brataly”?",
+        "options": {
+            "A": "Splatoon 1 y Crash Bandicoot.",
+            "B": "Splatoon 2 y La Leyenda de Zelda.",
+            "C": "Splatoon 2 y la OctoExpansion.",
+            "D": "En ninguna."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuál es el nombre de una posible futura entrega en “Exe World”?",
+        "options": {
+            "A": "Exe World 4.",
+            "B": "Exe World: Un nuevo horizonte.",
+            "C": "EXE WORLD 2: Unidos por la comunidad.",
+            "D": "Cualquiera de las anteriores."
+        },
+        "correct_answer": "D",
+        "clarification": ""
+    },
+    {
+        "question": "¿En qué “Exe World” aparece Octavio por última vez?",
+        "options": {
+            "A": "Exe World 2.",
+            "B": "Exe World: Remasterizado.",
+            "C": "Brataly.",
+            "D": "Exe World 3."
+        },
+        "correct_answer": "B",
+        "clarification": "También sería enemigo final de todas las entregas, pero como se cancelaron, no llegaron a nada."
+    },
+    {
+        "question": "¿Cómo se llama la ciudad donde viven Exe y sus hermanas?",
+        "options": {
+            "A": "Centro de Inkopolis.",
+            "B": "Región de Indawo.",
+            "C": "Plaza de Crómopolis.",
+            "D": "Sigtuna Beach."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Por qué Exe se despierta en el parque al inicio de todo?",
+        "options": {
+            "A": "Nunca se responde.",
+            "B": "Sus hermanas lo echan de casa.",
+            "C": "Es sonámbulo.",
+            "D": "Es raptado."
+        },
+        "correct_answer": "A",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cómo es la selección de niveles en el “Exe World: Original\"?",
+        "options": {
+            "A": "Desde la casa de Exe.",
+            "B": "En el avión de Blocky Gameplay.",
+            "C": "Desde el laboratorio de Mar.",
+            "D": "No existe."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿Por qué se canceló “Brataly”?",
+        "options": {
+            "A": "Por falta de tiempo.",
+            "B": "No tuvo rumbo.",
+            "C": "El creador tenía novia.",
+            "D": "En realidad fue Exe World 3."
+        },
+        "correct_answer": "C",
+        "clarification": "Gastøn casi terminó el desarrollo de Brataly, pero borró el proyecto entero por vagancia y falta de motivación. Además, el muy tarado priorizó a su ex, mintiendo sobre el comunicado de la cancelación."
+    },
+    {
+        "question": "¿Cuáles son las profesiones de Mar y Tina en el lore de “Exe World”?",
+        "options": {
+            "A": "Son camareras.",
+            "B": "Son jefas de una fábrica.",
+            "C": "Son cantantes.",
+            "D": "No tienen."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuáles son las profesiones secretas de la familia de Exe?",
+        "options": {
+            "A": "Agentes secretos.",
+            "B": "Espías.",
+            "C": "Cazafantasmas.",
+            "D": "Gobernadores."
+        },
+        "correct_answer": "A",
+        "clarification": "¡En el nuevo lore son mercenarios! Exe incluido. :o"
+    },
+    {
+        "question": "¿En qué entrega aparece el personaje de “Autome Plays” por primera vez?",
+        "options": {
+            "A": "Exe World: Remasterizado.",
+            "B": "Exe World 3.",
+            "C": "Nova: La Serie.",
+            "D": "Exe World: Original."
+        },
+        "correct_answer": "A",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuántas novias tuvo Exe?",
+        "options": {
+            "A": "Menos de 2.",
+            "B": "2.",
+            "C": "Más de 2.",
+            "D": "Demasiadas para contar."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuál es la cronología de la saga “Exe World”?",
+        "options": {
+            "A": "Exe World R, Exe World 2, Exe World 3, Brataly.",
+            "B": "Exe World R, Exe World 3, Exe World 2, Brataly.",
+            "C": "Exe World 2, Exe World R, Brataly, Exe World 3.",
+            "D": "Exe World 2, Exe World R, Exe World 3, Brataly."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuál es la premisa de la entrega “Exe World 3”?",
+        "options": {
+            "A": "La Multigema colapsa.",
+            "B": "Exe vuelve a despertar en el parque.",
+            "C": "La desaparición de Mar.",
+            "D": "El choque de los multiversos."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "En 2026, Gastøn anunció al protagonista de su siguiente proyecto. ¿Quién es?",
+        "options": {
+            "A": "Exe.",
+            "B": "Nova.",
+            "C": "Gema.",
+            "D": "Lyn."
+        },
+        "correct_answer": "D",
+        "clarification": ""
+    },
+    {
+        "question": "En 2026, Gastøn reveló su siguiente proyecto, ¿tratándose de…?",
+        "options": {
+            "A": "Un juego en Godot Engine.",
+            "B": "Un manga.",
+            "C": "Un libro.",
+            "D": "Un nuevo proyecto en PowerPoint."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Soraya y Nova son…?",
+        "options": {
+            "A": "Exparejas.",
+            "B": "Hermanos biológicos.",
+            "C": "Amigos de la infancia.",
+            "D": "Hermanos adoptivos."
+        },
+        "correct_answer": "D",
+        "clarification": "¡En el nuevo lore son hermanos biológicos! :o"
+    },
+    {
+        "question": "¿Cuántos integrantes tiene el grupo de Nova?",
+        "options": {
+            "A": "Menos de 5.",
+            "B": "5.",
+            "C": "Más de 5.",
+            "D": "Demasiados para contar."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Qué habilidad pasiva tiene Nova?",
+        "options": {
+            "A": "No puede hacer daño con magia.",
+            "B": "Sus defensas son mayores que el resto.",
+            "C": "Es mucho más ágil.",
+            "D": "Puede curar a todos."
+        },
+        "correct_answer": "A",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cómo se llama la habilidad definitiva de Nova?",
+        "options": {
+            "A": "Llamado al Verdugo.",
+            "B": "Cadenas hacia la liberación.",
+            "C": "Un nuevo universo.",
+            "D": "El Mundo del Loco."
+        },
+        "correct_answer": "D",
+        "clarification": "¡En el nuevo lore tiene otra! :o"
+    },
+    {
+        "question": "¿De qué especie es Nova?",
+        "options": {
+            "A": "Calamar humanoide.",
+            "B": "Pulpo humanoide.",
+            "C": "Humano.",
+            "D": "Demonio."
+        },
+        "correct_answer": "A",
+        "clarification": "¡En el lore nuevo ahora es de otra! Indirectamente el mismo que Exe pero a la vez diferente… es aún complicado xDD."
+    },
+    {
+        "question": "¿De quién está enamorado Nova?",
+        "options": {
+            "A": "Soraya.",
+            "B": "Iko.",
+            "C": "Gema.",
+            "D": "Synk."
+        },
+        "correct_answer": "D",
+        "clarification": "¡En el nuevo lore es con Gema! Ambos tienen un origen juntos y Sink no existe."
+    },
+    {
+        "question": "¿Quién de las integrantes del grupo siente atracción por Nova?",
+        "options": {
+            "A": "Rinna.",
+            "B": "Iko.",
+            "C": "Gema.",
+            "D": "Akura."
+        },
+        "correct_answer": "D",
+        "clarification": "¡En el nuevo lore Akura no existe! Fue reemplazada por Ménima. :("
+    },
+    {
+        "question": "¿A quién le recuerda Synk a Nova?",
+        "options": {
+            "A": "Rinna.",
+            "B": "Iko.",
+            "C": "Akura.",
+            "D": "Baru."
+        },
+        "correct_answer": "A",
+        "clarification": ""
+    },
+    {
+        "question": "¿Quién es Baru Jevalec?",
+        "options": {
+            "A": "Hija adoptiva de Nova y Gema.",
+            "B": "Asesina de la ciudad de Indawo.",
+            "C": "Fugitiva de la academia.",
+            "D": "Todas son correctas."
+        },
+        "correct_answer": "D",
+        "clarification": ""
+    },
+    {
+        "question": "¿Por qué Soraya es un demonio?",
+        "options": {
+            "A": "Es su especie natural.",
+            "B": "Es reencarnada.",
+            "C": "Cae bajo una maldición.",
+            "D": "Viene de otro universo."
+        },
+        "correct_answer": "A",
+        "clarification": "¡En el nuevo lore cae bajo una maldición! :o"
+    },
+    {
+        "question": "¿Cuál es el orden cronológico de los protagonistas de Gastøn?",
+        "options": {
+            "A": "Exe, Nova, Gema.",
+            "B": "Exe, Nova.",
+            "C": "Exe, Nova, Exe.",
+            "D": "Exe, Nova, Lyn."
+        },
+        "correct_answer": "D",
+        "clarification": ""
+    },
+    {
+        "question": "¿De qué especie es Iko Ukonwada?",
+        "options": {
+            "A": "Calamar humanoide.",
+            "B": "Pulpo humanoide.",
+            "C": "Humano.",
+            "D": "Demonio."
+        },
+        "correct_answer": "C",
+        "clarification": "¡En el nuevo lore es de la misma especie que Nova y Exe! :o"
+    },
+    {
+        "question": "¿De qué especie es Rinna Okufanasha?",
+        "options": {
+            "A": "Calamar humanoide.",
+            "B": "Pulpo humanoide.",
+            "C": "Humano.",
+            "D": "Demonio."
+        },
+        "correct_answer": "B",
+        "clarification": "¡En el nuevo lore es de la misma especie que Nova y Exe y tiene alas! :o"
+    },
+    {
+        "question": "¿Cuál es la diferencia principal entre los turnos \"críticos\" y el \"poder otorgado\" en el sistema de combate en “Nova: Universo Alterno”?",
+        "options": {
+            "A": "Los “críticos” permiten cambiar de personaje y el “poder otorgado” es un superataque especial.",
+            "B": "Los “críticos” dan un turno extra para atacar de nuevo, mientras que el “poder otorgado” permite atacar usando a un aliado con el hechizo elegido.",
+            "C": "Los “críticos” repiten el hechizo lanzado y el “poder otorgado” permite elegir un hechizo especial.",
+            "D": "No hay diferencia, ambos funcionan igual."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "En “Nova: Universo Alterno”, ¿qué evento importante prepara la academia para los alumnos de último año, motivo por el cual Rinna entrega los formularios?",
+        "options": {
+            "A": "Un examen de graduación final.",
+            "B": "Un viaje a la ciudad de la Gran Maga.",
+            "C": "Una gran ceremonia y un torneo internacional competitivo de magos.",
+            "D": "La entrega de un título de magia definitiva."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿A partir de qué versión de PowerPoint recomienda Gastøn ejecutar “Nova: Universo Alterno”?",
+        "options": {
+            "A": "PowerPoint 2010.",
+            "B": "PowerPoint 2013.",
+            "C": "PowerPoint 2016.",
+            "D": "Cualquier versión es compatible."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿Cuál es la función específica del hechizo eterno definitivo, conocido como “Mundo del Loco”, en “Nova: Universo Alterno”?",
+        "options": {
+            "A": "Darle al portador una fuerza incalculable.",
+            "B": "Recuperar la energía mágica del usuario.",
+            "C": "Bloquear la magia de los oponentes, dejando al mago en desventaja.",
+            "D": "Ser inmune a cualquier tipo de magia."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "En “Nova: Universo Alterno”, ¿qué clase de magia es considerada la más poderosa de las tres existentes?",
+        "options": {
+            "A": "Magia oscura.",
+            "B": "Magia eterna.",
+            "C": "Magia espiritual.",
+            "D": "Magia elemental."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Qué personaje utiliza un hechizo para esconder su identidad verdadera antes de revelarse frente a Nova?",
+        "options": {
+            "A": "Delta.",
+            "B": "Gema.",
+            "C": "Ménima.",
+            "D": "Akura."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿Qué característica técnica se destaca en la estructura de “Nova: Universo Alterno”?",
+        "options": {
+            "A": "Está compuesto por un solo archivo enorme.",
+            "B": "Está dividido en múltiples archivos (.ppt).",
+            "C": "La implementación de macros por primera vez.",
+            "D": "No tiene música."
+        },
+        "correct_answer": "B",
+        "clarification": ""
+    },
+    {
+        "question": "¿Qué nombre elige el grupo de Nova para su equipo?",
+        "options": {
+            "A": "Operación hacia la libertad.",
+            "B": "Ladrones Fantasmas.",
+            "C": "Brataly.",
+            "D": "Nuevo Universo."
+        },
+        "correct_answer": "C",
+        "clarification": ""
+    },
+    {
+        "question": "¿Qué cargo decide ceder Iko a Nova tras sentir que ella ha causado demasiados problemas en la academia?",
+        "options": {
+            "A": "Directora suprema.",
+            "B": "Sargenta principal.",
+            "C": "Secretaria de la academia.",
+            "D": "Centinela real."
+        },
+        "correct_answer": "C",
         "clarification": ""
     }
 ]
