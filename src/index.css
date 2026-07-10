@@ -113,12 +113,19 @@ CENTRALIZACIONES
 
 .grid-container-4 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: qrem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 4px;
 }
 
-.grid-container-4>* {
-  aspect-ratio: 1 / 1;
+.div3 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.div4 {
+  grid-column-start: 1;
+  grid-row-start: 2;
 }
 
 

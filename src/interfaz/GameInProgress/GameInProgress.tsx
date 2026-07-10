@@ -21,7 +21,7 @@ export default function GameInProgress({
         questions
     } = gameData;
 
-    return <section className="center-web-page center-all" style={{ gap: '2rem' }}>
+    return <section className="center-web-page center-all" style={{ gap: '2rem', justifyContent: 'start' }}>
         <p className="score" style={{ textAlign: 'center' }}>¡Puntuación actual: <strong className="score-point">{scoreInGame}</strong>pts!</p>
         <ul className="center-list">
             <li className="score" style={{ filter: 'drop-shadow(0 0 3px #4f4f4f)' }}>Ahora: {gameHistory?.currentQuestion}</li>
