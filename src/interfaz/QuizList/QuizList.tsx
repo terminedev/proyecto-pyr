@@ -1,13 +1,24 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { Answers, GameData, Question } from "../../logic-game/interfaces";
 import { answerQuestion, evaluateScore } from "../../logic-game/functions";
+import EndGame from "../EndGame/EndGame";
 
+// Definir la interface de Props
 interface QuizListProps {
     list: Question[];
+    gameData: GameData;
     setGameData: React.Dispatch<React.SetStateAction<GameData | null>>;
+    overallScore: number;
+    setOverallScore: React.Dispatch<React.SetStateAction<number>>;
 }
 
-export default function QuizList({ list, setGameData }: QuizListProps) {
+export default function QuizList({
+    overallScore,
+    setOverallScore,
+    list,
+    gameData,
+    setGameData
+}: QuizListProps) {
 
     // Pregunta actual:
     const currentQuestion = list[0];
@@ -17,7 +28,7 @@ export default function QuizList({ list, setGameData }: QuizListProps) {
     const [response, setResponse] = useState({
         showResponse: false,
         theAnswerIsCorrect: false,
-        pointsEarned: 0
+        pointsEarned: gameData.scoreInGame
     });
 
     const evaluateResponse = (res: Answers) => {
@@ -32,6 +43,7 @@ export default function QuizList({ list, setGameData }: QuizListProps) {
             pointsEarned
         })
     };
+
 
     // Finalizar ronda:
     const endRound = () => {
@@ -61,7 +73,10 @@ export default function QuizList({ list, setGameData }: QuizListProps) {
         setResponse({ showResponse: false, theAnswerIsCorrect: false, pointsEarned: 0 });
     };
 
+
     // Finalizar partida antes de terminar:
+    const [endGame, setEndGame] = useState(false);
+
     const endGameManual = () => {
         setResponse({ showResponse: false, theAnswerIsCorrect: false, pointsEarned: 0 });
         setGameData((prev) => {
@@ -73,7 +88,17 @@ export default function QuizList({ list, setGameData }: QuizListProps) {
                 questions: []
             }
         })
+
+        setEndGame(true);
     };
+
+
+    if (endGame || list.length <= 0) return <EndGame
+        pointsEarned={gameData.scoreInGame}
+        setGameData={setGameData}
+        overallScore={overallScore}
+        setOverallScore={setOverallScore}
+    />;
 
     return <div>
 

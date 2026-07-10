@@ -12,14 +12,30 @@ export default function App() {
         return data ? JSON.parse(data) : null;
     });
 
+
     // Cada vez que los datos locales cambian, se guardan en la memoria:
     useEffect(() => {
         setLocalStorage('gameData', gameData)
     }, [gameData])
 
 
+    // Obtenemos el puntaje total:
+    const [overallScore, setOverallScore] = useState(() => {
+        const score = getLocalStorage('overallScore');
+        return score ? parseInt(score) : 0;
+    });
+
+
     // Si el juego no está en progreso se muestra el menú principal:
     return gameData
-        ? <GameInProgress gameData={gameData} setGameData={setGameData} />
-        : <MainMenu setGameData={setGameData} />
+        ? <GameInProgress
+            gameData={gameData}
+            setGameData={setGameData}
+            overallScore={overallScore}
+            setOverallScore={setOverallScore}
+        />
+        : <MainMenu
+            overallScore={overallScore}
+            setGameData={setGameData}
+        />
 };

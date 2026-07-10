@@ -1,20 +1,18 @@
-import { useState } from "react"
-import { getLocalStorage, setLocalStorage } from "../../logic-game/memory";
+import { setLocalStorage } from "../../logic-game/memory";
 import type { GameData } from "../../logic-game/interfaces";
 import { NUMBER_OF_QUESTIONS } from "../../logic-game/constants";
 import { getRandomQuestions } from "../../logic-game/functions";
 
 // Definir la interface de Props
 interface MainMenuProps {
+    overallScore: number;
     setGameData: React.Dispatch<React.SetStateAction<GameData | null>>;
 }
 
-export default function MainMenu({ setGameData }: MainMenuProps) {
+export default function MainMenu({
+    overallScore,
+    setGameData }: MainMenuProps) {
 
-    const [overallScore, _setOverallScore] = useState(() => {
-        const score = getLocalStorage('overallScore');
-        return score ? parseInt(score) : 0;
-    });
 
     return <section className="center-web-page center-all" style={{ gap: '2rem' }}>
 

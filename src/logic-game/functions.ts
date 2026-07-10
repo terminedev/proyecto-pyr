@@ -33,6 +33,6 @@ export const evaluateScore = (
 export const checkRecord = (
     currentScore: number,
     newScore: number
-): number => {
-    return newScore > currentScore ? newScore : currentScore;
+): boolean => {
+    return newScore > currentScore ? true : false;
 };

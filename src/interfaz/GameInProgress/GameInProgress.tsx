@@ -3,11 +3,17 @@ import QuizList from "../QuizList/QuizList";
 
 // Definir la interface de Props
 interface GameInProgressProps {
+    overallScore: number;
+    setOverallScore: React.Dispatch<React.SetStateAction<number>>;
     gameData: GameData;
     setGameData: React.Dispatch<React.SetStateAction<GameData | null>>;
 }
 
-export default function GameInProgress({ gameData, setGameData }: GameInProgressProps) {
+export default function GameInProgress({
+    overallScore,
+    setOverallScore,
+    gameData,
+    setGameData }: GameInProgressProps) {
 
     const {
         scoreInGame,
@@ -24,6 +30,12 @@ export default function GameInProgress({ gameData, setGameData }: GameInProgress
             <li style={{ color: 'red' }}>Erradas: {gameHistory?.wrongQuestions}</li>
         </ul>
 
-        <QuizList list={questions} setGameData={setGameData} />
+        <QuizList
+            list={questions}
+            gameData={gameData}
+            setGameData={setGameData}
+            overallScore={overallScore}
+            setOverallScore={setOverallScore}
+        />
     </section>
 };
