@@ -34,12 +34,12 @@
   --warning: #EE00FF;
   --information: #94FF8A;
 
-  --fs-h1: clamp(1.25rem, 0.8rem + 1.5vw, 1.8rem);
-  --fs-h2: clamp(1.1rem, 0.7rem + 1.2vw, 1.5rem);
-  --fs-h3: clamp(1rem, 0.7rem + 0.8vw, 1.3rem);
-  --fs-h4: clamp(0.9rem, 0.6rem + 0.5vw, 1.1rem);
-  --fs-h5: 0.9rem;
-  --fs-h6: 0.6rem;
+  --fs-h1: clamp(2.5rem, 2rem + 3vw, 4rem);
+  --fs-h2: clamp(2rem, 1.5rem + 2.5vw, 3.25rem);
+  --fs-h3: clamp(1.75rem, 1.3rem + 2vw, 2.5rem);
+  --fs-h4: clamp(1.5rem, 1.1rem + 1.5vw, 2rem);
+  --fs-h5: 1.25rem;
+  --fs-h6: 1.1rem;
 }
 
 
@@ -51,6 +51,13 @@ body {
   min-height: 100vh;
 
   font-size: 17px;
+
+  background-image: url('src/assets/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 img {
@@ -102,4 +109,66 @@ CENTRALIZACIONES
   padding: 0;
   margin: 0;
   gap: 1rem;
+}
+
+.grid-container-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: qrem;
+}
+
+.grid-container-4>* {
+  aspect-ratio: 1 / 1;
+}
+
+
+/* 
+-----------------
+PUNTAJES
+----------------- 
+*/
+
+
+.score {
+  color: white;
+  font-size: var(--fs-h4);
+  filter: drop-shadow(0 0 1px #84e3f6) drop-shadow(0 0 5px #3ed5f3);
+}
+
+.score-point {
+  color: #da71fd;
+
+  text-shadow:
+    0 0 8px #bf00ff,
+    0 0 15px #bf00ff,
+    0 0 25px #8000ff;
+}
+
+
+/* 
+-----------------
+BOTONES
+----------------- 
+*/
+
+
+.boton-retro {
+  background-color: rgba(0, 0, 0, 0.797);
+  border: none;
+
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--fs-h5);
+
+  padding: 12px 40px;
+  border-radius: 7px;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+}
+
+.boton-retro:active {
+  transform: scale(0.97);
 }

@@ -26,8 +26,6 @@ export default function EndGame({
     const [newTotalScore, setNewTotalScore] = useState(0);
 
     useEffect(() => {
-        console.log(allowAdd);
-
         if (allowAdd) {
             // Actualizar el score total solo si no excede el límite:
             setOverallScore(prev => {
