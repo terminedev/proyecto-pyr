@@ -108,12 +108,19 @@ export default function QuizList({
     return <section className="center-all" style={{ gap: '.5rem', marginTop: '2rem' }}>
 
         {/* Bloque de pregunta: */}
-        <p style={{ textAlign: 'center', backgroundColor: '#000000d0', fontSize: 'var(--fs-h4)', padding: '7px' }}>{currentQuestion.question}</p>
-        <div className="grid-container-4">
-            <button className="div1 boton-retro" onClick={() => evaluateResponse('A')}>{currentQuestion.options.A}</button>
-            <button className="div2 boton-retro" onClick={() => evaluateResponse('B')}>{currentQuestion.options.B}</button>
-            <button className="div3 boton-retro" onClick={() => evaluateResponse('C')}>{currentQuestion.options.C}</button>
-            <button className="div4 boton-retro" onClick={() => evaluateResponse('D')}>{currentQuestion.options.D}</button>
+        <p style={{ textAlign: 'center', backgroundColor: '#040436c2', fontSize: 'var(--fs-h4)', padding: '2rem', marginBottom: '1rem' }}>{currentQuestion.question}</p>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            width: '90vw',
+            gap: '7px',
+            textAlign: 'start',
+            padding: 0
+        }}>
+            <button className="boton-retro btn-action" style={{ margin: '0' }} onClick={() => evaluateResponse('A')}>{currentQuestion.options.A}</button>
+            <button className="boton-retro btn-action" style={{ margin: '0' }} onClick={() => evaluateResponse('B')}>{currentQuestion.options.B}</button>
+            <button className="boton-retro btn-action" style={{ margin: '0' }} onClick={() => evaluateResponse('C')}>{currentQuestion.options.C}</button>
+            <button className=" boton-retro btn-action" style={{ margin: '0' }} onClick={() => evaluateResponse('D')}>{currentQuestion.options.D}</button>
         </div>
 
 
