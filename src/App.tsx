@@ -37,5 +37,6 @@ export default function App() {
         : <MainMenu
             overallScore={overallScore}
             setGameData={setGameData}
+            setOverallScore={setOverallScore}
         />
 };

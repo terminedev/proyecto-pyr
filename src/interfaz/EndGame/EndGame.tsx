@@ -9,36 +9,44 @@ interface EndGameProps {
     setGameData: React.Dispatch<React.SetStateAction<GameData | null>>;
     overallScore: number;
     setOverallScore: React.Dispatch<React.SetStateAction<number>>;
+    allowAdd: boolean;
+    setAllowAdd: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export default function EndGame({
     pointsEarned,
     setGameData,
-    setOverallScore
+    setOverallScore,
+    allowAdd,
+    setAllowAdd
 }: EndGameProps) {
 
     // Estado local para manejar si se rompió el record tras la actualización
     const [isRecord, setIsRecord] = useState(false);
-    let newTotalScore = 0;
+    const [newTotalScore, setNewTotalScore] = useState(0);
 
     useEffect(() => {
+        console.log(allowAdd);
 
-        // Actualizar el score total solo si no excede el límite:
-        setOverallScore(prev => {
-            if (prev <= 99999) {
+        if (allowAdd) {
+            // Actualizar el score total solo si no excede el límite:
+            setOverallScore(prev => {
+
                 const updatedScore = prev + pointsEarned;
 
                 // Actualizamos el puntaje general en memoria:
                 setLocalStorage('overallScore', updatedScore)
 
-                newTotalScore = updatedScore;
+                setNewTotalScore(updatedScore);
 
                 //Verificar el record con el nuevo valor calculado:
                 setIsRecord(checkRecord(prev, updatedScore));
-                return updatedScore;
-            }
-            return prev;
-        });
+                return updatedScore <= 99999 ? updatedScore : prev;
+            });
+
+            setAllowAdd(false);
+        }
+
     }, [pointsEarned, setOverallScore]);
 
     return (

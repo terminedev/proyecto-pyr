@@ -7,11 +7,14 @@ import { getRandomQuestions } from "../../logic-game/functions";
 interface MainMenuProps {
     overallScore: number;
     setGameData: React.Dispatch<React.SetStateAction<GameData | null>>;
+    setOverallScore: React.Dispatch<React.SetStateAction<number>>;
 }
 
 export default function MainMenu({
     overallScore,
-    setGameData }: MainMenuProps) {
+    setGameData,
+    setOverallScore
+}: MainMenuProps) {
 
 
     return <section className="center-web-page center-all" style={{ gap: '2rem' }}>
@@ -44,7 +47,10 @@ export default function MainMenu({
 
             }}>¡Jugar Partida!</button>
             <div className="center-all" style={{ gap: '0px' }}>
-                <button onClick={() => setLocalStorage('overallScore', 0)}>
+                <button onClick={() => {
+                    setLocalStorage('overallScore', 0);
+                    setOverallScore(0);
+                }}>
                     Reiniciar puntaje total
                 </button>
                 <strong style={{ color: 'red' }}>¡Esta opción no se puede deshacer!</strong>

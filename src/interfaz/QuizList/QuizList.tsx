@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import type { Answers, GameData, Question } from "../../logic-game/interfaces";
 import { answerQuestion, evaluateScore } from "../../logic-game/functions";
 import EndGame from "../EndGame/EndGame";
+import { NUMBER_OF_QUESTIONS } from "../../logic-game/constants";
 
 // Definir la interface de Props
 interface QuizListProps {
@@ -35,7 +36,7 @@ export default function QuizList({
         if (response.showResponse) return;
 
         const theAnswerIsCorrect = answerQuestion(currentQuestion.correct_answer, res);
-        const pointsEarned = evaluateScore(theAnswerIsCorrect, 0);
+        const pointsEarned = evaluateScore(theAnswerIsCorrect, NUMBER_OF_QUESTIONS - list.length);
 
         setResponse({
             showResponse: true,
@@ -71,11 +72,13 @@ export default function QuizList({
         });
 
         setResponse({ showResponse: false, theAnswerIsCorrect: false, pointsEarned: 0 });
+        setAllowAdd(true);
     };
 
 
     // Finalizar partida antes de terminar:
     const [endGame, setEndGame] = useState(false);
+    const [allowAdd, setAllowAdd] = useState(false);
 
     const endGameManual = () => {
         setResponse({ showResponse: false, theAnswerIsCorrect: false, pointsEarned: 0 });
@@ -98,6 +101,8 @@ export default function QuizList({
         setGameData={setGameData}
         overallScore={overallScore}
         setOverallScore={setOverallScore}
+        allowAdd={allowAdd}
+        setAllowAdd={setAllowAdd}
     />;
 
     return <div>
