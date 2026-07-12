@@ -6,7 +6,7 @@ Este proyecto es una aplicación web interactiva de tipo trivia o cuestionario (
 
 **Exe World: Archivos E** permite a los usuarios jugar partidas de preguntas y respuestas, acumulando puntos tanto en la partida actual como en un puntaje global histórico. El juego está diseñado para no perder el progreso si el usuario cierra o recarga la página, gracias a la sincronización constante del estado de React con el almacenamiento local del navegador. Permite iniciar nuevas partidas, responder preguntas con retroalimentación inmediata, abandonar la partida perdiendo el progreso actual, y reiniciar el puntaje global.
 
-**Link**: 
+**Link**: https://exeworld-archivos-e.vercel.app/
 
 
 ## Características Principales
