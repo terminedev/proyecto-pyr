@@ -48,7 +48,15 @@ export default function EndGame({
     }, [pointsEarned, setOverallScore]);
 
     return (
-        <section>
+        <section
+            className="center-all" style={{
+                padding: '1rem',
+                backgroundColor: 'rgba(0, 0, 0, 0.693)',
+                border: '1px solid white',
+                fontSize: 'var(--fs-h4)',
+                textAlign: 'center',
+            }}
+        >
             <p>¡Partida finalizada!</p>
 
             <p>Puntos ganados: +{pointsEarned}.</p>
@@ -57,7 +65,7 @@ export default function EndGame({
             {/* Mostrar mensaje de record si la validación es verdadera */}
             {isRecord && <p>¡Nuevo record!</p>}
 
-            <button onClick={() => setGameData(null)}>
+            <button className="boton-retro" onClick={() => setGameData(null)}>
                 Volver al menú principal
             </button>
         </section>

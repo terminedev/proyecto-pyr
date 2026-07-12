@@ -115,7 +115,8 @@ export default function QuizList({
             width: '90vw',
             gap: '7px',
             textAlign: 'start',
-            padding: 0
+            padding: 0,
+            marginBottom: '1rem'
         }}>
             <button className="boton-retro btn-action" style={{ margin: '0' }} onClick={() => evaluateResponse('A')}>{currentQuestion.options.A}</button>
             <button className="boton-retro btn-action" style={{ margin: '0' }} onClick={() => evaluateResponse('B')}>{currentQuestion.options.B}</button>
@@ -126,18 +127,24 @@ export default function QuizList({
 
         {/* Mostrar contenido tras responder: */}
         {response.showResponse &&
-            <>
+            <section className="center-all" style={{
+                padding: '1rem',
+                backgroundColor: 'rgba(0, 0, 0, 0.693)',
+                border: '1px solid white',
+                fontSize: 'var(--fs-h4)',
+                textAlign: 'center'
+            }}>
                 <div>
                     {response.theAnswerIsCorrect
-                        ? <p>¡Correcta!</p>
-                        : <p>¡Incorrecta!</p>
+                        ? <p style={{ color: '#e3f7e3', filter: 'drop-shadow(0 0 3px #026406)' }}>¡Correcta!</p>
+                        : <p style={{ color: '#fa98a5', filter: 'drop-shadow(0 0 3px #940417)' }}>¡Incorrecta!</p>
                     }
                 </div>
 
                 <p>Puntos ganados: +{response.pointsEarned}</p>
                 {currentQuestion.clarification !== '' && <p>¡Aclaración!: {currentQuestion.clarification}</p>}
-                <button onClick={endRound}>¡Continuar!</button>
-            </>
+                <button className="boton-retro" onClick={endRound}>¡Continuar!</button>
+            </section>
         }
 
         {/* Volver al menú principal */}
