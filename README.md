@@ -25,7 +25,6 @@ Este proyecto es una aplicación web interactiva de tipo trivia o cuestionario (
 * **Hooks Utilizados:**
 * `useState` (con inicialización perezosa para leer el LocalStorage).
 * `useEffect` (para sincronizar los cambios de estado con la memoria del navegador).
-* `useRef` (importado, preparado para referencias del DOM o valores mutables sin re-renderizado).
 
 
 * **Estilos:** CSS Modules (`MainMenu.module.css`) y clases globales (`boton-retro`, `center-all`).
@@ -33,7 +32,7 @@ Este proyecto es una aplicación web interactiva de tipo trivia o cuestionario (
 
 ## Estructura de Datos (Ficha Técnica)
 
-El núcleo de la lógica de la aplicación se basa en un tipado estricto definido en TypeScript para garantizar la consistencia de los datos y el estado del juego. A continuación se detallan las interfaces, tipos y constantes principales del proyecto:
+El núcleo de la lógica de la aplicación se basa en un tipado estricto definido en TypeScript para garantizar la consistencia de los datos y el estado del juego.
 
 ### Constantes y Tipos
 
