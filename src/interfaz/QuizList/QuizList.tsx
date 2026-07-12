@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import type { Answers, GameData, Question } from "../../logic-game/interfaces";
 import { answerQuestion, evaluateScore } from "../../logic-game/functions";
 import EndGame from "../EndGame/EndGame";
