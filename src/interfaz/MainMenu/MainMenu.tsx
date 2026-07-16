@@ -74,7 +74,7 @@ export default function MainMenu({
                 aria-label="Visitar perfil de GitHub de Gastón Términe"
                 style={{ color: 'white' }}
             >
-                Gastøn Términe 2026
+                terminedev 2026
             </a>
         </div>
     </section>
